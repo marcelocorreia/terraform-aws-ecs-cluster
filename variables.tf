@@ -14,6 +14,7 @@ variable "ami_id" {
 
 variable "ami_owners" {
   default = ["self", "amazon", "aws-marketplace"]
+  type = "list"
 }
 
 variable "lookup_latest_ami" {
